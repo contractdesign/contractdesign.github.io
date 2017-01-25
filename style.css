@@ -1,0 +1,82 @@
+body {
+  background: #0f0f23; /*337 x 5*/
+  color: #ccccbb;
+  font-family: "Source Code Pro", monospace;
+  font-size: 8pt;
+  min-width: 48em;
+}
+header, main {
+  -webkit-text-size-adjust: none;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.all {
+    position: relative;
+}
+
+
+.col_station {
+    float: left;
+    width: 100px;
+}
+
+.col_track {
+    float: left;
+    width: 10px;
+}
+
+.col_comment {
+    float: left;
+    width: 60px;
+    height: 12px;
+}
+
+
+.debug {
+    visibility: hidden;
+}
+
+
+
+.station {
+    width: 100px;
+    height: 12px;
+}
+
+
+.cid {
+    width: 10px;
+    height: 12px;
+}
+
+.comment {
+    width: 60px;
+    height: 12px;
+}
+
+
+
+/* TODO: use these official WMATA colors */
+.BL {
+    color: #0795d3;
+}
+.RD {
+    color: #be1337;
+}
+.OR {
+    color: #da8707;
+}
+.YL {
+    color: #f5d415;
+}
+.GR {
+    color: #00b050;
+}
+.SV {
+    color: #a2a4a1;
+}
+
