@@ -1,82 +1,67 @@
 body {
-  background: #0f0f23; /*337 x 5*/
+  background: #0f0f23;
   color: #ccccbb;
   font-family: "Source Code Pro", monospace;
   font-size: 8pt;
-  min-width: 48em;
-}
-header, main {
-  -webkit-text-size-adjust: none;
-}
+  min-width: 48em; }
 
+header, main {
+  -webkit-text-size-adjust: none; }
 
 * {
-    box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .all {
-    position: relative;
-}
-
+  /* see http://learnlayout.com/max-width.html */
+  max-width: 330px;
+  position: relative;
+  text-align: center; }
 
 .col_station {
-    float: left;
-    width: 100px;
-}
+  float: left;
+  width: 100px; }
 
 .col_track {
-    float: left;
-    width: 10px;
-}
+  float: left;
+  width: 10px; }
 
 .col_comment {
-    float: left;
-    width: 60px;
-    height: 12px;
-}
-
+  float: left;
+  width: 60px;
+  height: 12px; }
 
 .debug {
-    visibility: hidden;
-}
-
-
+  visibility: hidden; }
 
 .station {
-    width: 100px;
-    height: 12px;
-}
-
+  width: 100px;
+  height: 12px; }
 
 .cid {
-    width: 10px;
-    height: 12px;
-}
+  width: 10px;
+  height: 12px; }
 
 .comment {
-    width: 60px;
-    height: 12px;
-}
-
-
+  width: 60px;
+  height: 12px; }
 
 /* TODO: use these official WMATA colors */
 .BL {
-    color: #0795d3;
-}
-.RD {
-    color: #be1337;
-}
-.OR {
-    color: #da8707;
-}
-.YL {
-    color: #f5d415;
-}
-.GR {
-    color: #00b050;
-}
-.SV {
-    color: #a2a4a1;
-}
+  color: #0795d3; }
 
+.RD {
+  color: #be1337; }
+
+.OR {
+  color: #da8707; }
+
+.YL {
+  color: #f5d415; }
+
+.GR {
+  color: #00b050; }
+
+.SV {
+  color: #a2a4a1; }
+
+/*# sourceMappingURL=style.css.map */
