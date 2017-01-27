@@ -30,20 +30,26 @@ header, main {
   width: 60px;
   height: 12px; }
 
-.debug {
-  visibility: hidden; }
-
+/* station comment field */
 .station {
   width: 100px;
   height: 12px; }
 
-.cid {
+/* tracks are identified by the classname cid# */
+div[class^="cid"] {
   width: 10px;
   height: 12px; }
 
-.comment {
+div[class^="cmt"] {
   width: 60px;
   height: 12px; }
+
+/* fake track unit */
+.fake {
+  color: #888888; }
+
+.debug {
+  visibility: hidden; }
 
 /* TODO: use these official WMATA colors */
 .BL {
