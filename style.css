@@ -67,4 +67,7 @@ div[class^="cmt"] {
 .SV {
   color: #a2a4a1; }
 
+.debug {
+  visibility: hidden; }
+
 /*# sourceMappingURL=style.css.map */
