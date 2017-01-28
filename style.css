@@ -48,9 +48,6 @@ div[class^="cmt"] {
 .fake {
   color: #888888; }
 
-.debug {
-  visibility: hidden; }
-
 /* TODO: use these official WMATA colors */
 .BL {
   color: #0795d3; }
