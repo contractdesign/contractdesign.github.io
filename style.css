@@ -37,6 +37,7 @@ header, main {
 
 /* tracks are identified by the classname cid# */
 div[class^="cid"] {
+  transition: color 15s;
   width: 10px;
   height: 12px; }
 
@@ -45,7 +46,7 @@ div[class^="cmt"] {
   height: 12px; }
 
 /* fake track unit */
-.fake {
+.cidNone {
   color: #888888; }
 
 /* TODO: use these official WMATA colors */
