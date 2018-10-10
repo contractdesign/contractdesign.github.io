@@ -16,7 +16,7 @@ function geoFindMe() {
         - https://developers.google.com/maps/documentation/urls/guide
       */
       var url = document.createElement('a');
-      url.innerHTML = 'google maps:' + latitude + ', ' + longitude;
+      url.innerHTML = 'google maps: ' + latitude + ', ' + longitude;
       var url_string = 'https://www.google.com/maps/search/?api=1&query=' + latitude + "," + longitude;
       url.setAttribute('href', url_string );
       output.appendChild(url);
