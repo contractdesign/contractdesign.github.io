@@ -1,0 +1,71 @@
+<!--https://github.com/metro-sign/dc-metro-->
+
+<!--
+    call with URL and parameters, e.g.,
+
+    https://domain.com/index.html?locationCode=B08&group=2
+
+
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>WMATA PID</title>
+</head>
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+
+    body {
+        color: #ff0000;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 88px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        background: #000000;
+        width: 1024px;
+        height: 768px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .header {
+        color: #ff0000;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin: 0;
+        white-space: pre-wrap;
+    }
+
+    #trains {
+        color: #ffff00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin: 0;
+        white-space: pre-wrap;
+    }
+</style>
+
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script type='text/javascript' src='./pid.min.js'>
+
+</script>
+
+<!-- https://www.wmata.com/business/procurement/solicitations/documents/Manual%20of%20Graphics%20Standards_03032008_pages_101-201.pdf-->
+
+<body>
+    <p class="header">LN CAR&nbsp;DEST &nbsp;&nbsp;&nbsp;MIN</p>
+    <div id="trains">
+    </div>
+
+</body>
+
+</html>
