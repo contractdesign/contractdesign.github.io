@@ -28,7 +28,7 @@ url: "https://contractdesign.github.io" # the base hostname & protocol for your 
 github_username:  contractdesign
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
