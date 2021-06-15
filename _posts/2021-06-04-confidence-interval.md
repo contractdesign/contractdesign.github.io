@@ -2,19 +2,16 @@ Interpretation of Confidence Intervals
 ================
 
 A 95% confidence interval (CI) for an estimated parameter means that if
-the experiment were conducted 100 times, the estimated parameter will
-fall within the confidence interval 95 times on average. It does not
-mean that there is a 95% chance that the estimated parameter falls in
-within a given CI. In fact, for a given CI, there could be a 100% chance
-that it doesn’t fall with in the range. (see [this
-link](https://www.statisticssolutions.com/misconceptions-about-confidence-intervals/)).
+an experiment to estimate the parameter were conducted 100 times, the confidence
+interval contains the estimate 95 times on average. Note that the parameter
+itself isn't random, but the CI is a random variable.
 
 Let’s try an example. We’ll generate 100 “experiments” by taking 10
 random samples from a normal distribution N(0, 1) 100 times. We’ll
 compute the 95% confidence interval for the sample mean, and count how
 many times the actual mean falls within the confidence interval.
 
-``` r
+```r
 library(Rmisc)
 
 mean_real <- 0 # real mean to be estimated
