@@ -41,14 +41,14 @@ permalink: /links/
 
 ## eBPF
 - [USENIX LISA2021 video](http://www.brendangregg.com/blog/2021-06-15/bpf-internals.html)
-- https://events.static.linuxfound.org/sites/events/files/slides/bpf_collabsummit_2015feb20.pdf
-- https://github.com/torvalds/linux/tree/master/include/uapi/linux/bpf_common.h
-- https://github.com/torvalds/linux/tree/master/include/uapi/linux/bpf.h
-- https://github.com/torvalds/linux/tree/master/include/uapi/linux/filter.h
-- https://docs.cilium.io/en/v1.9/bpf/#bpf-guide
-- https://ebpf.io/what-is-ebpf
-- https://github.com/iovisor/bcc
-- https://github.com/iovisor/bpftrace
+- [https://events.static.linuxfound.org/sites/events/files/slides/bpf_collabsummit_2015feb20.pdf]
+- [https://github.com/torvalds/linux/tree/master/include/uapi/linux/bpf_common.h]
+- [https://github.com/torvalds/linux/tree/master/include/uapi/linux/bpf.h]
+- [https://github.com/torvalds/linux/tree/master/include/uapi/linux/filter.h]
+- [https://docs.cilium.io/en/v1.9/bpf/#bpf-guide]
+- [https://ebpf.io/what-is-ebpf]
+- [https://github.com/iovisor/bcc]
+- [https://github.com/iovisor/bpftrace]
 - [Writing an XDP filter in eBPF](https://duo.com/labs/tech-notes/writing-an-xdp-network-filter-with-ebpf)
 
 
@@ -61,6 +61,10 @@ permalink: /links/
 
 - run a command in the namespace of another process: [nsenter](https://www.man7.org/linux/man-pages/man1/nsenter.1.html)
 - turn off namespace for a process: [unshare](https://www.man7.org/linux/man-pages/man1/unshare.1.html)
+
+
+# Linux
+- [TTY demystified](https://linusakesson.net/programming/tty/index.php)
 
 
 # Business Ideas
