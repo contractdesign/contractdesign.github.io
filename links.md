@@ -41,14 +41,14 @@ permalink: /links/
 
 ## eBPF
 - [USENIX LISA2021 video](http://www.brendangregg.com/blog/2021-06-15/bpf-internals.html)
-- [https://events.static.linuxfound.org/sites/events/files/slides/bpf_collabsummit_2015feb20.pdf]
-- [https://github.com/torvalds/linux/tree/master/include/uapi/linux/bpf_common.h]
-- [https://github.com/torvalds/linux/tree/master/include/uapi/linux/bpf.h]
-- [https://github.com/torvalds/linux/tree/master/include/uapi/linux/filter.h]
-- [https://docs.cilium.io/en/v1.9/bpf/#bpf-guide]
-- [https://ebpf.io/what-is-ebpf]
-- [https://github.com/iovisor/bcc]
-- [https://github.com/iovisor/bpftrace]
+- [summit](https://events.static.linuxfound.org/sites/events/files/slides/bpf_collabsummit_2015feb20.pdf)
+- [bpf_common.h](https://github.com/torvalds/linux/tree/master/include/uapi/linux/bpf_common.h)
+- [bpf.h](https://github.com/torvalds/linux/tree/master/include/uapi/linux/bpf.h)
+- [filter.h](https://github.com/torvalds/linux/tree/master/include/uapi/linux/filter.h)
+- [bpf guide](https://docs.cilium.io/en/v1.9/bpf/#bpf-guide)
+- [what is ebpf](https://ebpf.io/what-is-ebpf)
+- [bcc](https://github.com/iovisor/bcc)
+- [bpftrace](https://github.com/iovisor/bpftrace)
 - [Writing an XDP filter in eBPF](https://duo.com/labs/tech-notes/writing-an-xdp-network-filter-with-ebpf)
 
 
@@ -60,7 +60,7 @@ permalink: /links/
 - getting around problems with [file permissions](https://blog.gougousis.net/file-permissions-the-painful-side-of-docker/)
 
 - run a command in the namespace of another process: [nsenter](https://www.man7.org/linux/man-pages/man1/nsenter.1.html)
-- turn off namespace for a process: [unshare](https://www.man7.org/linux/man-pages/man1/unshare.1.html)
+- turn off namespace for a process: [unshare](https://www.man7.org/linux/man-pages/man1/unshare.1.html), [creating namespaces](https://www.linuxnix.com/creating-namespaces-in-linux-using-unshare/)
 
 
 # Linux
