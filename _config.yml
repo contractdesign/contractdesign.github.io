@@ -15,10 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Notes on Technical Topics
 email: contractdesign+gh@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-This site has notes on technical topics of interest to me. If you have any
-questions, feel free to reach me at the email address listed at the bottom of
-the page
+description: "This site has notes on technical topics of interest to me. If you have any questions, feel free to reach me at the email address listed at the bottom of the page"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://contractdesign.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
