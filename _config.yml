@@ -41,4 +41,3 @@ plugins:
 
 exclude:
   - stations.md
-  - redline.md
