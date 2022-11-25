@@ -49,5 +49,14 @@ SECTIONS {
 
 VMA (virtual memory address) and LMA (load memory address) are generally the same
 
+# Tools
+
+To see what the dynamic linker is doing,
+```bash
+$ LD_DEBUG=all ./a.out 2>ld.txt
+```
+
+Use `help` in place of `all` to see other outputs.
+
 
 In `/proc/self/maps`, neither of the sections `[heap]` or `[stack]` are defined in the default linker script. Who defines them?
