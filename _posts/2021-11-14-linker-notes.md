@@ -1,8 +1,8 @@
 ---
-title: Notes on the Linker ln
+title: Notes on the Linux Linker ld
 layout: post
 categories: programming
-tags: linux linker ln
+tags: linux linker ld
 ---
 
 To list the paths for the linker
