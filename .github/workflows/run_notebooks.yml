@@ -7,7 +7,7 @@ name: run-notebooks
 # Run every time a new commit is pushed
 on:
   schedule:
-    -cron: '47 * * * *'
+    -cron: '52 * * * *'
 
 jobs:
   # Set the job key
