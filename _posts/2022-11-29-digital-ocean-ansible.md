@@ -11,7 +11,7 @@ Digital Ocean offers the option of accessing a remote host by password or by SSH
 ## Create a Digital Ocean Instance
 Create a new digital ocean instance in the web interface and  record its IP address in the inventory file, `hosts.txt` as below:
 
-```
+```ini
 [all:vars]
 ansible_ssh_private_key_file=<PATH to SSH .pub>
 ansible_ssh_user=root
@@ -27,7 +27,7 @@ Check that ansible can connect to the instance by running the `ansible` command.
 $ ansible -i hosts.txt -m ping all
 ```
 A successful response returns a `pong` to the `ping`:
-```
+```bash
 1.1.1.1 | SUCCESS => {
     "ansible_facts": {
         "discovered_interpreter_python": "/usr/bin/python3"
@@ -43,7 +43,7 @@ Run ansible new account playbook to create the `user` account.
 $ ansible-playbook new_account.yml -i hosts.txt 
 ```
 
-An example `new_account.yml` playbook is below which is based on [this site]( http://minimum-viable-automation.com/ansible/use-ansible-create-user-accounts-setup-ssh-keys/)
+An example `new_account.yml` playbook is below which is based on one from [minimum-viable-automation.com]( http://minimum-viable-automation.com/ansible/use-ansible-create-user-accounts-setup-ssh-keys/)
 
 *Note* that you will need to change the path to your SSH key (see line with `digital_ocean.pub`)
 ```yaml
