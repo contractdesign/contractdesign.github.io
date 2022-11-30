@@ -1,0 +1,57 @@
+name: run-notebooks
+
+# https://docs.github.com/en/actions/quickstart
+# https://github.com/marketplace?type=actions
+# https://github.com/marketplace/actions/run-notebook
+
+# Run every time a new commit is pushed
+on:
+  schedule:
+    - cron: '7 12 * * *'
+
+jobs:
+  # Set the job key
+  run-notebooks:
+    # Name the job
+    name: Test Jupyter Notebooks
+    # Set the type of machine to run on
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v3
+    - name: pip install
+      run: | 
+        python3 -m pip install papermill==2.4.0 ipykernel==6.15.2 nbformat==5.4.0 nbconvert==7.0.0
+        python3 -m ipykernel install --user
+        python3 -m pip install pandas requests datetime matplotlib --user
+    - name: papermill
+      run: |
+        papermill notebooks/megabus.ipynb notebooks/megabus_out.ipynb
+        jupyter nbconvert notebooks/megabus_out.ipynb --no-input --to html
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: notebooks/megabus_out.html
+
+
+#    - uses: yaananth/run-notebook@v2
+#      with:
+#        notebook: "fetch.ipynb"
+#        isReport: True
+
+
+#      - name: Install conda environment
+#        uses: conda-incubator/setup-miniconda@v1
+#        with:
+#          activate-environment: jupyter-actions
+#          environment-file: environment.yml
+#          python-version: 3.7
+
+#      - name: Execute all Notebooks
+#        shell: bash -l {0}
+#        run: |
+#          conda activate jupyter-actions
+#          pytest

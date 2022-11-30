@@ -8,7 +8,7 @@ Each station in Washington DC's Metro system has digital displays of next train 
 calls these displays "Passenger Information Status Displays" (PIDS).
 
 {:.center-image}
-![PIDS](/images/PIDS.jpg)
+![PIDS](/assets/stations/PIDS.jpg)
 
 This site has a browser-based replica that you can use to monitor your own status!  Select the
 PIDS for your station below and bookmark in your browser for easy reference in the future.  There

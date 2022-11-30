@@ -1,0 +1,6 @@
+---
+layout: post
+title: Notes on git
+category: notes
+tags: git
+---
