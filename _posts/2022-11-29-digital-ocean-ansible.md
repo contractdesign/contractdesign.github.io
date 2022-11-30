@@ -3,13 +3,13 @@ layout: post
 title: Configuring a New Digital Ocean Instance with Ansible
 ---
 
-Newly created Digital Ocean instances only have a root account. It's good practice to create a regular user account which has sudoer privileges and to login with this account in place of the root account. This page gives instructions for setting up a cloud instances this way.
+Newly created Digital Ocean instances only have a root account. It's good practice to create a regular user account which has sudoer privileges and to login with this account in place of the root account. This page gives instructions for setting up a cloud instance this way.
 
 ## Prerequisites
 Digital Ocean offers the option of accessing a remote host by password or by SSH. These instructions were written assuming the instances is accessed by SSH.
 
 ## Create a Digital Ocean Instance
-Create a new digital ocean instance in the web interface and  record its IP address in the inventory file, `hosts.txt`
+Create a new digital ocean instance in the web interface and  record its IP address in the inventory file, `hosts.txt` as below:
 
 ```
 [all:vars]
