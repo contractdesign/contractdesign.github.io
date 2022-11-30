@@ -8,7 +8,7 @@ Newly created Digital Ocean instances only have a root account. It's good practi
 ## Prerequisites
 Digital Ocean offers the option of accessing a remote host by password or by SSH. These instructions were written assuming the instances is accessed by SSH.
 
-## Create a Digital Ocean Instance
+## Create Instance and Add to Inventory
 Create a new digital ocean instance in the web interface and  record its IP address in the inventory file, `hosts.txt` as below:
 
 ```ini
@@ -17,7 +17,7 @@ ansible_ssh_private_key_file=<PATH to SSH .pub>
 ansible_ssh_user=root
 
 [all]
-1.1.1.1 # change this to your Digital Ocean insteance's IP address
+1.1.1.1 # change this to your Digital Ocean instance's IP address
 ```
 
 ## Verify Connectivity
