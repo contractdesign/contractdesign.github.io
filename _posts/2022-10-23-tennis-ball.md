@@ -5,7 +5,7 @@ category: notes
 tags: python
 ---
 
-A coworker told me about how the sound of a tennis ball's drop can be used to determine whether the ball is flat or not. As one would expect, flatter balls don't bounce as high as good balls, instead reaching a lower ratio of its initial drop height. This ratio can be measure from the sound of three successive bounces (or the two times between them) to compute the airborn time and from that derive the height.
+A coworker told me about how the sound of a tennis ball's drop can be used to determine whether the ball is flat or not. As one would expect, flatter balls don't bounce as high as good balls, instead reaching a lower ratio of its initial drop height. This ratio can be computed from the sound of three successive bounce from some basic physics.
 
 This notebook doesn't actually determine if a ball is flat or not. It explores the variation in measurement of a _single_ ball, which is all I had available.
 
